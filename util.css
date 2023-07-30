@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* clear- default */
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+button{
+    border: none;
+    outline: none;
+    background: none ;
+    color: #fff ;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+/* font-size */
+h1,h2{
+    font-size: 2.4rem;
+}
+h3{
+    font-size: 2rem;
+}
+a,p{
+    font-size: 1.5rem;
+}
+.sm-font{
+    font-size: 1.6rem;
+}
+.md-font{
+    font-size: 2.0rem;
+}
+.lg-font{
+    font-size: 3.0rem;
+}
+.text-black{
+    color: rgba(0,0,0,0.9);
+}
+.text-gray{
+    color: rgb(115, 114, 113);
+}
+.text-white{
+    color:rgb(252, 249, 249) ;
+}
+.sm-weight{
+    font-weight: 500;
+}
+.md-weight{
+    font-weight: 600;
+}
+.high-weight{
+    font-weight: 700;
+}
+.smm-font{
+    font-size: 1.4rem;
+}
+.text-red{
+    color: red;
+}
